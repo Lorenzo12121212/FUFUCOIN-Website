@@ -14,12 +14,13 @@
             padding: 0;
         }
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: auto;
             padding: 20px;
         }
         .logo {
-            width: 200px;
+            width: 250px;
+            margin-top: 20px;
         }
         .button {
             display: inline-block;
@@ -30,9 +31,16 @@
             font-size: 20px;
             border-radius: 5px;
             margin-top: 20px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: #ff4500;
         }
         .section {
-            margin: 40px 0;
+            margin: 50px 0;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
         }
         .footer {
             margin-top: 50px;
@@ -51,16 +59,36 @@
 
     <div class="container section" id="about">
         <h2>About FUFUCOIN</h2>
-        <p>FUFUCOIN is a high-speed memecoin inspired by the energy and agility of the ferret. Join our growing community today!</p>
+        <p>FUFUCOIN is a high-speed memecoin inspired by the energy and agility of the ferret. Our mission is to build a strong community and create viral trends in the crypto space.</p>
     </div>
 
     <div class="container section" id="tokenomics">
         <h2>Tokenomics</h2>
-        <p>📈 Total Supply: 1 Trillion<br>💰 No taxes, no limits – just pure fun!</p>
+        <p><strong>📈 Total Supply:</strong> 1 Trillion<br>
+           <strong>💰 No taxes, no limits:</strong> Just pure fun!<br>
+           <strong>🔒 Locked Liquidity:</strong> 100% Secure.<br>
+           <strong>🚀 Community Driven:</strong> The power of memes fuels the project.</p>
+    </div>
+
+    <div class="container section" id="roadmap">
+        <h2>Roadmap</h2>
+        <ul>
+            <li><strong>Phase 1:</strong> Launch, Community Growth, Viral Memes.</li>
+            <li><strong>Phase 2:</strong> Listings on CoinGecko & CoinMarketCap.</li>
+            <li><strong>Phase 3:</strong> Partnership with Influencers, Expansion.</li>
+            <li><strong>Phase 4:</strong> Major Exchange Listings, NFT Integration.</li>
+        </ul>
+    </div>
+
+    <div class="container section" id="live-data">
+        <h2>Live Market Data</h2>
+        <p>Track the latest price and market cap on our partner platforms.</p>
+        <a href="https://www.dextools.io/" class="button">View on DexTools</a>
     </div>
 
     <div class="container section" id="community">
         <h2>Join the Community</h2>
+        <p>Be part of the FUFUCOIN movement and stay updated!</p>
         <a href="https://t.me/fufucoin" class="button">Join Telegram</a>
         <a href="https://x.com/fufucoin" class="button">Follow on X</a>
     </div>
